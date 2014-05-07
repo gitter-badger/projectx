@@ -12,6 +12,7 @@ class CreatePersonsTable extends Migration {
 	 */
 	public function up()
 	{
+		//Create Persons Table
 		Schema::create('persons', function(Blueprint $table)
 		{
 			// Primary Key
