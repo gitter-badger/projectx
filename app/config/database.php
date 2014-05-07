@@ -48,7 +48,13 @@ return array(
 
 		'sqlite' => array(
 			'driver'   => 'sqlite',
-			'database' => __DIR__.'/../database/production.sqlite',
+			'database' => __DIR__.'/../database/development.sqlite',
+			'prefix'   => '',
+		),
+
+		'sqlite-test' => array(
+			'driver'   => 'sqlite',
+			'database' => __DIR__.'/../database/testing.sqlite',
 			'prefix'   => '',
 		),
 
