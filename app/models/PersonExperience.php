@@ -4,6 +4,8 @@ use LaravelBook\Ardent\Ardent;
 class PersonExperience extends Ardent {
 	protected $fillable = [];
 
+
+  //test for required experience
 	public static $rules = array(
 		'total_experience_years' => 'required',
 		'person_id' => 'required',
